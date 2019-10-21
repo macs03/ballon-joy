@@ -1,3 +1,32 @@
+/*--------------------------------------------------------------
+  Constants
+----------------------------------------------------------------*/
+
+:root {
+  --maincolor: rgba(255, 113, 117, 1);
+  --maincolor-light: rgba(60, 20, 24, 0.8);
+  --white: #ffffff;
+}
+
+/*--------------------------------------------------------------
+  Fonts
+----------------------------------------------------------------*/
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url(./assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url(./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "LuckiestGuy";
+  src: url(./assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

@@ -19,11 +19,12 @@ const FirstSection = () => (
     </div>
     <div className="title">
       <h2>RESERVA AHORA!!!</h2>
+      <div className="sub-title">
+        <h4>Quieres Organizar tu fiesta?</h4>
+        <h4>hazmelo saber!</h4>
+      </div>
     </div>
-    <div className="sub-title">
-      <h4>Quieres Organizar tu fiesta?</h4>
-      <h4>hazmelo saber!</h4>
-    </div>
+
     <div className="buttons">
       <button>Escribe un correo</button>
       <button>Escribe a whatsapp</button>

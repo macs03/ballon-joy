@@ -24,8 +24,22 @@
   width: 100vw;
 }
 
+.title h2 {
+  font-family: "LuckiestGuy";
+  color: var(--white);
+  font-size: 3em;
+}
+
 .sub-title {
   width: 100vw;
+}
+
+.sub-title h4 {
+  font-family: "OpenSansRegular";
+  color: var(--white);
+  font-size: 1.5em;
+  text-align: center;
+  margin-block-end: -1.5em
 }
 
 .buttons {
