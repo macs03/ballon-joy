@@ -2,6 +2,7 @@ import React from "react";
 import { bubble as Menu } from "react-burger-menu";
 
 import FirstSection from "./first-section/first-section";
+import Services from "./services/services";
 
 import "./styles.css";
 
@@ -32,6 +33,7 @@ const RootComponent = () => {
         </Menu>
       </div>
       <FirstSection />
+      <Services />
     </div>
   );
 };

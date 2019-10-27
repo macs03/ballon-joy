@@ -9,7 +9,7 @@ import email from "../../assets/images/icon-email.svg";
 import "./styles.css";
 
 const FirstSection = () => (
-  <section className="main">
+  <section id="main" className="main">
     <div className="logo">
       <LazyLoadImage
         alt="ballon-joy"
