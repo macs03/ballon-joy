@@ -39,7 +39,7 @@
   color: var(--white);
   font-size: 1.5em;
   text-align: center;
-  margin-block-end: -1.5em
+  margin-block-end: -1.5em;
 }
 
 .buttons {
@@ -48,4 +48,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.buttons .button-text {
+  width: 70%;
+  text-align: left;
+  margin: -0.15em 0 0 -0.5em;
 }

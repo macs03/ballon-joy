@@ -3,6 +3,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 import whiteLogo from "../../assets/images/logo-white_BalloonJoy.png";
+import whatsapp from "../../assets/images/icon-whatsapp.svg";
+import email from "../../assets/images/icon-email.svg";
 
 import "./styles.css";
 
@@ -26,8 +28,26 @@ const FirstSection = () => (
     </div>
 
     <div className="buttons">
-      <button>Escribe un correo</button>
-      <button>Escribe a whatsapp</button>
+      <button className="primary-button">
+        <LazyLoadImage
+          alt="email"
+          height="30%"
+          src={email}
+          width="30%"
+          effect="blur"
+        />
+        <span className="button-text">Escribe un correo</span>
+      </button>
+      <button className="primary-button">
+        <LazyLoadImage
+          alt="whatsapp"
+          height="30%"
+          src={whatsapp}
+          width="30%"
+          effect="blur"
+        />
+        <span className="button-text">Escribe a whatsapp</span>
+      </button>
     </div>
   </section>
 );

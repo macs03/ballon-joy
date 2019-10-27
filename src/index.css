@@ -3,9 +3,13 @@
 ----------------------------------------------------------------*/
 
 :root {
-  --maincolor: rgba(255, 113, 117, 1);
-  --maincolor-light: rgba(60, 20, 24, 0.8);
+  --maincolor: #6236d1;
+  --maincolordark: #5c23d3;
+  --maincolorlight: #8377aa;
+  --secondarycolor: #f9af1b;
+  --secondarycolorlight: #fed073;
   --white: #ffffff;
+  --dark: #000a14;
 }
 
 /*--------------------------------------------------------------
@@ -39,4 +43,42 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.primary-button {
+  background: var(--secondarycolor);
+  border-width: 2px;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
+  width: 14em;
+  height: 3em;
+  font-family: "OpenSansRegular";
+  color: var(--white);
+  font-size: 0.7em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
+}
+
+.scondary-button {
+  background: var(--maincolor);
+  border-width: 2px;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
+  width: 14em;
+  height: 3em;
+  font-family: "OpenSansRegular";
+  color: var(--white);
+  font-size: 0.7em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
 }
