@@ -6,9 +6,34 @@
   width: 30px;
   height: 30px;
   margin: 10px;
-  position: relative;
+  position: fixed;
 }
 
 .bm-burger-bars {
-  background: yellow;
+  background: var(--secondarycolor);
+}
+
+.bm-cross {
+  background: var(--secondarycolor);
+}
+
+.bm-morph-shape {
+  fill: var(--maincolor);
+}
+
+.bm-item-list {
+  padding: 1.8em 0 0 0.8em;
+  width: 100%;
+  text-align: left;
+}
+
+.bm-item {
+  color: var(--white);
+  text-decoration: none;
+  padding: 1.5em;
+  font-family: "OpenSansRegular";
+}
+
+.bm-item:focus {
+  outline: none;
 }

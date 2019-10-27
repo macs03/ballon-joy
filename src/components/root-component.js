@@ -13,18 +13,21 @@ const RootComponent = () => {
   return (
     <div>
       <div className="menu-container">
-        <Menu right width={"40%"}>
+        <Menu left width={"40%"}>
           <a id="home" className="menu-item" href="/">
-            Home
+            Reserva
           </a>
           <a id="about" className="menu-item" href="/about">
-            About
+            Nuestros Servicios
           </a>
           <a id="contact" className="menu-item" href="/contact">
-            Contact
+            Kids Night
+          </a>
+          <a id="contact" className="menu-item" href="/contact">
+            Galeria
           </a>
           <a onClick={showSettings} className="menu-item--small" href="/">
-            Settings
+            Contact
           </a>
         </Menu>
       </div>
