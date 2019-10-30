@@ -1,4 +1,9 @@
 /*--------------------------------------------------------------
+  Imports
+----------------------------------------------------------------*/
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+/*--------------------------------------------------------------
   Constants
 ----------------------------------------------------------------*/
 
@@ -64,7 +69,7 @@ code {
   padding: 0.1em;
 }
 
-.scondary-button {
+.secondary-button {
   background: var(--maincolor);
   border-width: 2px;
   border-style: none;
