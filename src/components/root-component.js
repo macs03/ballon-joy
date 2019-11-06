@@ -4,6 +4,7 @@ import { bubble as Menu } from "react-burger-menu";
 import FirstSection from "./first-section/first-section";
 import Services from "./services/services";
 import KidsNight from "./kids-night/kids-night";
+import Gallery from "./gallery/gallery";
 
 import "./styles.css";
 
@@ -36,6 +37,7 @@ const RootComponent = () => {
       <FirstSection />
       <Services />
       <KidsNight />
+      <Gallery />
     </div>
   );
 };
