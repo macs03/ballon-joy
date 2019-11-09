@@ -5,6 +5,7 @@ import FirstSection from "./first-section/first-section";
 import Services from "./services/services";
 import KidsNight from "./kids-night/kids-night";
 import Gallery from "./gallery/gallery";
+import Contact from "./contact/contact";
 
 import "./styles.css";
 
@@ -38,6 +39,7 @@ const RootComponent = () => {
       <Services />
       <KidsNight />
       <Gallery />
+      <Contact />
     </div>
   );
 };
