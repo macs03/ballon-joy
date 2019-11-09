@@ -49,7 +49,7 @@ const Services = () => (
           effect="blur"
         />
         <div className="service-description">
-          <span className="title-item">FIESTA POR HORAS</span>
+          <span className="title-item">DECORACION</span>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -73,7 +73,7 @@ const Services = () => (
           effect="blur"
         />
         <div className="service-description">
-          <span className="title-item">FIESTA POR HORAS</span>
+          <span className="title-item">BALLOON BOUQUETS</span>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -97,7 +97,7 @@ const Services = () => (
           effect="blur"
         />
         <div className="service-description">
-          <span className="title-item">FIESTA POR HORAS</span>
+          <span className="title-item">EVENTOS</span>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
