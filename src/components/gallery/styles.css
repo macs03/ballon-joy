@@ -49,16 +49,12 @@
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .more-text {
   font-family: "OpenSansSemiBold";
   color: var(--maincolorlight);
   font-size: 0.5em;
-  margin: -1em 0 0 -2em;
-}
-
-.gradient span {
-  margin-top: 1.5em;
+  margin: 0 0 1em 1em;
 }

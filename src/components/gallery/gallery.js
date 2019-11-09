@@ -114,9 +114,9 @@ const GallerySection = () => (
       <div className="gradient">
         <LazyLoadImage
           alt="arrow-down"
-          height="80%"
+          height="25px"
           src={arrowDown}
-          width="20%"
+          width="20px"
           effect="blur"
         />
         <span className="more-text">See more photos</span>
