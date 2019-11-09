@@ -9,6 +9,7 @@ import facebook from "../../assets/images/icon-facebook.svg";
 import instagram from "../../assets/images/icon-instagram.svg";
 import twitter from "../../assets/images/icon-twitter.svg";
 import whatsapp from "../../assets/images/icon-whatsapp.svg";
+import email from "../../assets/images/icon-email.svg";
 
 const Contact = () => {
   const { register, handleSubmit, errors } = useForm(); // initialise the hook
@@ -72,36 +73,65 @@ const Contact = () => {
               placeholder="Full Name"
               ref={register({ required: true })}
             />
-            {errors.fullname && "Full name is required."}
+            {errors.fullname && (
+              <span className="contact-title">Full name is required.</span>
+            )}
             <input
               name="email"
               type="email"
               placeholder="E-mail"
-              ref={register({ required: true })}
+              ref={register({
+                required: true,
+                pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+              })}
             />
-            {errors.fullname && "Full name is required."}
+            {errors.email && (
+              <span className="contact-title">E-mail is required.</span>
+            )}
             <input
               name="subject"
               placeholder="Subject"
               ref={register({ required: true })}
             />
-            {errors.fullname && "Full name is required."}
+            {errors.subject && (
+              <span className="contact-title">Subject is required.</span>
+            )}
             <input
               name="phone"
               type="tel"
               placeholder="Phone"
-              ref={register({ pattern: /\d+/ })}
+              ref={register({ pattern: /\d+/, required: true })}
             />
-            {errors.age && "Please enter number for age."}
+            {errors.phone && (
+              <span className="contact-title">
+                Please enter number for phone.
+              </span>
+            )}
             <textarea
-              name="comment"
+              name="message"
               form="form"
               placeholder="Message"
               maxLength={200}
               rows="10"
-              ref={register({ required: true })}
+              ref={register({
+                required: true,
+                maxlength: 200,
+                minLength: 20
+              })}
             />
-            <input type="submit" className="primary-button" />
+            {errors.message && (
+              <span className="contact-title">Please enter your message.</span>
+            )}
+            <button className="primary-button" type="submit">
+              <LazyLoadImage
+                alt="email"
+                height="30%"
+                src={email}
+                width="30%"
+                effect="blur"
+              />
+              <span className="button-text">Send Message</span>
+            </button>
           </form>
         </div>
       </div>
