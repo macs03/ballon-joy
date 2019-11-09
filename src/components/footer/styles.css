@@ -1,0 +1,21 @@
+.footer {
+  background: var(--maincolor);
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  font-family: "OpenSansRegular";
+  color: var(--white);
+  font-size: 0.8em;
+}
+
+.footer span a {
+  font-family: "OpenSansRegular";
+  color: var(--white);
+  font-size: 1em;
+  text-decoration: none;
+}

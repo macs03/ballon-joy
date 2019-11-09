@@ -6,6 +6,7 @@ import Services from "./services/services";
 import KidsNight from "./kids-night/kids-night";
 import Gallery from "./gallery/gallery";
 import Contact from "./contact/contact";
+import Footer from "./footer/footer";
 
 import "./styles.css";
 
@@ -40,6 +41,7 @@ const RootComponent = () => {
       <KidsNight />
       <Gallery />
       <Contact />
+      <Footer />
     </div>
   );
 };
