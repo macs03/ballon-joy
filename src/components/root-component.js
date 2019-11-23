@@ -11,27 +11,23 @@ import Footer from "./footer/footer";
 import "./styles.css";
 
 const RootComponent = () => {
-  const showSettings = event => {
-    event.preventDefault();
-  };
-
   return (
     <div>
       <div className="menu-container">
         <Menu left width={"40%"}>
-          <a id="home" className="menu-item" href="/">
-            Reserva
+          <a className="menu-item" href="#contact">
+            Book
           </a>
-          <a id="about" className="menu-item" href="/about">
-            Nuestros Servicios
+          <a className="menu-item" href="#services">
+            Our Services
           </a>
-          <a id="contact" className="menu-item" href="/contact">
+          <a className="menu-item" href="#kids-night">
             Kids Night
           </a>
-          <a id="contact" className="menu-item" href="/contact">
-            Galeria
+          <a className="menu-item" href="#gallery">
+            Gallery
           </a>
-          <a onClick={showSettings} className="menu-item--small" href="/">
+          <a className="menu-item" href="#contact">
             Contact
           </a>
         </Menu>
