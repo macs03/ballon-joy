@@ -3,13 +3,11 @@ import Gallery from "react-photo-gallery";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-import photos from '../../lib/personal-assets.js'
+import photos from "../../lib/personal-assets.js";
 
 import "./styles.css";
 
 import arrowDown from "../../assets/images/icon-arrow-down.svg";
-
-
 
 const GallerySection = () => {
   const [active, setActive] = useState("all");
@@ -33,25 +31,25 @@ const GallerySection = () => {
         <div className="filters">
           <span
             onClick={() => onFilterGallery("all")}
-            className={active === "all" ? "active" : null}
+            className={active === "all" ? "active-filter" : null}
           >
             See all
           </span>
           <span
             onClick={() => onFilterGallery("bouquets")}
-            className={active === "bouquets" ? "active" : null}
+            className={active === "bouquets" ? "active-filter" : null}
           >
             Bouquets
           </span>
           <span
             onClick={() => onFilterGallery("decorations")}
-            className={active === "decorations" ? "active" : null}
+            className={active === "decorations" ? "active-filter" : null}
           >
             Decorations
           </span>
           <span
             onClick={() => onFilterGallery("events")}
-            className={active === "events" ? "active" : null}
+            className={active === "events" ? "active-filter" : null}
           >
             Events
           </span>

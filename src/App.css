@@ -20,3 +20,51 @@
 .App-link {
   color: #09d3ac;
 }
+
+.primary-button {
+  background: var(--secondarycolor);
+  border-width: 2px;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
+  width: 14em;
+  height: 3em;
+  font-family: "OpenSansRegular";
+  color: var(--white);
+  font-size: 0.7em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
+}
+
+.secondary-button {
+  background: var(--maincolor);
+  border-width: 2px;
+  border-style: none;
+  border-color: transparent;
+  border-image: none;
+  width: 14em;
+  height: 3em;
+  font-family: "OpenSansRegular";
+  color: var(--white);
+  font-size: 0.7em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em;
+}
+
+.active {
+  font-family: "OpenSansSemiBold" !important;
+  color: var(--secondarycolor) !important;
+}
+
+.menu-item {
+  cursor: pointer;
+  margin: 0.5em 0;
+}

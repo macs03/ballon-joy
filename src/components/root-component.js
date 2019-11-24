@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { bubble as Menu } from "react-burger-menu";
 
 import FirstSection from "./first-section/first-section";
@@ -10,36 +11,68 @@ import Footer from "./footer/footer";
 
 import "./styles.css";
 
-const RootComponent = () => {
-  return (
-    <div>
-      <div className="menu-container">
-        <Menu left width={"40%"}>
-          <a className="menu-item" href="#contact">
-            Book
-          </a>
-          <a className="menu-item" href="#services">
-            Our Services
-          </a>
-          <a className="menu-item" href="#kids-night">
-            Kids Night
-          </a>
-          <a className="menu-item" href="#gallery">
-            Gallery
-          </a>
-          <a className="menu-item" href="#contact">
-            Contact
-          </a>
-        </Menu>
-      </div>
-      <FirstSection />
-      <Services />
-      <KidsNight />
-      <Gallery />
-      <Contact />
-      <Footer />
+const RootComponent = () => (
+  <div>
+    <div className="menu-container">
+      <Menu left width={"40%"}>
+        <Link
+          className="menu-item"
+          to="contact"
+          data-offset="-45"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          Book
+        </Link>
+        <Link
+          className="menu-item"
+          to="services"
+          data-offset="-45"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          Our Services
+        </Link>
+        <Link
+          className="menu-item"
+          to="kids-night"
+          data-offset="-45"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          Kids Night
+        </Link>
+        <Link
+          className="menu-item"
+          to="gallery"
+          data-offset="-45"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          Gallery
+        </Link>
+        <Link
+          className="menu-item"
+          to="contact"
+          data-offset="-45"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          Contact
+        </Link>
+      </Menu>
     </div>
-  );
-};
-
+    <FirstSection />
+    <Services />
+    <KidsNight />
+    <Gallery />
+    <Contact />
+    <Footer />
+  </div>
+);
 export default RootComponent;

@@ -32,7 +32,7 @@
   font-size: 0.8em;
 }
 
-.active {
+.active-filter {
   font-family: "OpenSansSemiBold" !important;
   color: var(--maincolor) !important;
 }
