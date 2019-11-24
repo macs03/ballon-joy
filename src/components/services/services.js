@@ -13,8 +13,8 @@ import "./styles.css";
 const Services = () => (
   <section id="services" className="services">
     <div className="title-service">
-      <span>NUESTROS SERVICIOS</span>
-      <h4>A divertirnos!</h4>
+      <span>OUR SERVICES</span>
+      <h4>Let's fun!</h4>
     </div>
     <div className="services-container">
       <div className="service-item">
@@ -26,7 +26,7 @@ const Services = () => (
           effect="blur"
         />
         <div className="service-description">
-          <span className="title-item">FIESTA POR HORAS</span>
+          <span className="title-item">PARTY PER HOURS</span>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -50,7 +50,7 @@ const Services = () => (
           effect="blur"
         />
         <div className="service-description">
-          <span className="title-item">DECORACION</span>
+          <span className="title-item">DECORATION</span>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -98,7 +98,7 @@ const Services = () => (
           effect="blur"
         />
         <div className="service-description">
-          <span className="title-item">EVENTOS</span>
+          <span className="title-item">EVENTS</span>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

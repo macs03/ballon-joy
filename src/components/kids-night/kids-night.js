@@ -62,7 +62,7 @@ const KidsNight = () => (
   <section id="kids-night" className="kids-night">
     <div className="header-kids">
       <div className="title-kids">
-        <span>Preparados para un momento único?</span>
+        <span>Are you prepare for a unique momment?</span>
       </div>
       <button className="secondary-button">
         <LazyLoadImage

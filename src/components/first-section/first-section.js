@@ -20,10 +20,10 @@ const FirstSection = () => (
       />
     </div>
     <div className="title">
-      <h2>RESERVA AHORA!!!</h2>
+      <h2>BOOK NOW!!!</h2>
       <div className="sub-title">
-        <h4>Quieres Organizar tu fiesta?</h4>
-        <h4>hazmelo saber!</h4>
+        <h4>Do you want a party?</h4>
+        <h4>Let mew know!</h4>
       </div>
     </div>
 
@@ -36,7 +36,7 @@ const FirstSection = () => (
           width="30%"
           effect="blur"
         />
-        <span className="button-text">Escribe un correo</span>
+        <span className="button-text">Send me a email</span>
       </button>
       <button className="primary-button">
         <LazyLoadImage
@@ -46,7 +46,7 @@ const FirstSection = () => (
           width="30%"
           effect="blur"
         />
-        <span className="button-text">Escribe a whatsapp</span>
+        <span className="button-text">Whatsapp me</span>
       </button>
     </div>
   </section>
