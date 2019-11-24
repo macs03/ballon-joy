@@ -3,12 +3,11 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import ImageGallery from "react-image-gallery";
 
+import { anotherImages } from "../../lib/personal-assets.js";
+
 import party from "../../assets/images/icon-fest.svg";
 import calendar from "../../assets/images/icon-calendar.svg";
 import slide1 from "../../assets/images/img-slide_prueba.svg";
-import slide2 from "../../assets/images/img-slide_eventos.svg";
-import slide3 from "../../assets/images/img-slide_prueba.svg";
-import slide4 from "../../assets/images/img-slide_ball-twisting.svg";
 
 import "./styles.css";
 
@@ -18,16 +17,44 @@ const images = [
     thumbnail: slide1
   },
   {
-    original: slide2,
-    thumbnail: slide2
+    original: anotherImages.slider[0],
+    thumbnail: anotherImages.slider[0]
   },
   {
-    original: slide3,
-    thumbnail: slide3
+    original: anotherImages.slider[1],
+    thumbnail: anotherImages.slider[1]
   },
   {
-    original: slide4,
-    thumbnail: slide4
+    original: anotherImages.slider[2],
+    thumbnail: anotherImages.slider[2]
+  },
+  {
+    original: anotherImages.slider[3],
+    thumbnail: anotherImages.slider[3]
+  },
+  {
+    original: anotherImages.slider[4],
+    thumbnail: anotherImages.slider[4]
+  },
+  {
+    original: anotherImages.slider[5],
+    thumbnail: anotherImages.slider[5]
+  },
+  {
+    original: anotherImages.slider[6],
+    thumbnail: anotherImages.slider[6]
+  },
+  {
+    original: anotherImages.slider[7],
+    thumbnail: anotherImages.slider[7]
+  },
+  {
+    original: anotherImages.slider[8],
+    thumbnail: anotherImages.slider[8]
+  },
+  {
+    original: anotherImages.slider[9],
+    thumbnail: anotherImages.slider[9]
   }
 ];
 

@@ -2,10 +2,11 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
+import { anotherImages } from "../../lib/personal-assets.js";
+
 import party from "../../assets/images/img-fiesta.svg";
 import decoration from "../../assets/images/img-decoracion.svg";
 import bouquets from "../../assets/images/img-bouquets.svg";
-import events from "../../assets/images/img-eventos.svg";
 
 import "./styles.css";
 
@@ -92,7 +93,7 @@ const Services = () => (
         <LazyLoadImage
           alt="events"
           height="40%"
-          src={events}
+          src={anotherImages.services[0]}
           width="90%"
           effect="blur"
         />
