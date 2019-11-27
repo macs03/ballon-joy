@@ -26,7 +26,7 @@ const Contact = () => {
 
   const { addToast } = useToasts(); // Initialise toast
 
-  const onSubmit = data => {
+  const onSubmit = (data, event) => {
     const template_params = {
       reply_to: data.email,
       subject: data.subject,
@@ -43,6 +43,7 @@ const Contact = () => {
           appearance: "success",
           autoDismiss: true
         });
+        event.target.reset();
       },
       error => {
         addToast("Somenthing went wrong", {
