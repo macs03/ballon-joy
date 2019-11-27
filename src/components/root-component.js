@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-scroll";
 import { bubble as Menu } from "react-burger-menu";
 
+import { ToastProvider } from "react-toast-notifications";
+
 import FirstSection from "./first-section/first-section";
 import Services from "./services/services";
 import KidsNight from "./kids-night/kids-night";
@@ -71,7 +73,9 @@ const RootComponent = () => (
     <Services />
     <KidsNight />
     <Gallery />
-    <Contact />
+    <ToastProvider>
+      <Contact />
+    </ToastProvider>
     <Footer />
   </div>
 );

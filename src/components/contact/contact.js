@@ -1,5 +1,6 @@
 import React from "react";
 import useForm from "react-hook-form";
+import { useToasts } from "react-toast-notifications";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
@@ -21,11 +22,11 @@ const Contact = () => {
   // Init service for email
   emailJs.init(userID);
 
-  console.log(emailJs);
   const { register, handleSubmit, errors } = useForm(); // initialise the hook
-  const onSubmit = data => {
-    console.log(data);
 
+  const { addToast } = useToasts(); // Initialise toast
+
+  const onSubmit = data => {
     const template_params = {
       reply_to: data.email,
       subject: data.subject,
@@ -38,10 +39,16 @@ const Contact = () => {
 
     emailJs.send(serviceID, templateID, template_params).then(
       response => {
-        console.log("Email Sended", response);
+        addToast("Your Message has been send", {
+          appearance: "success",
+          autoDismiss: true
+        });
       },
       error => {
-        console.log("Somenthing went wrong", error);
+        addToast("Somenthing went wrong", {
+          appearance: "error",
+          autoDismiss: true
+        });
       }
     );
   };
