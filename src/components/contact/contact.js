@@ -3,6 +3,8 @@ import useForm from "react-hook-form";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
+import emailJs from "emailjs-com";
+
 import "./styles.css";
 
 import facebook from "../../assets/images/icon-facebook.svg";
@@ -11,10 +13,37 @@ import twitter from "../../assets/images/icon-twitter.svg";
 import whatsapp from "../../assets/images/icon-whatsapp.svg";
 import email from "../../assets/images/icon-email.svg";
 
+const userID = "user_XhWjzmKsGW4hcx0ogon6e";
+const serviceID = "gmailtest";
+const templateID = "template_ziReR0i8";
+
 const Contact = () => {
+  // Init service for email
+  emailJs.init(userID);
+
+  console.log(emailJs);
   const { register, handleSubmit, errors } = useForm(); // initialise the hook
   const onSubmit = data => {
     console.log(data);
+
+    const template_params = {
+      reply_to: data.email,
+      subject: data.subject,
+      from_name: data.fullname,
+      to_name: "Balloon Joy",
+      cell_phone: data.phone,
+      message_html: data.message,
+      date: data.date
+    };
+
+    emailJs.send(serviceID, templateID, template_params).then(
+      response => {
+        console.log("Email Sended", response);
+      },
+      error => {
+        console.log("Somenthing went wrong", error);
+      }
+    );
   };
 
   return (
@@ -110,6 +139,18 @@ const Contact = () => {
                 Please enter number for phone.
               </span>
             )}
+
+            <input
+              name="date"
+              type="date"
+              placeholder="Date"
+              ref={register({ required: true })}
+            />
+            {errors.phone && (
+              <span className="contact-title">
+                Please enter an estimate date.
+              </span>
+            )}
             <textarea
               name="message"
               form="form"
@@ -123,7 +164,9 @@ const Contact = () => {
               })}
             />
             {errors.message && (
-              <span className="contact-title">Please enter your message.</span>
+              <span className="contact-title">
+                Please enter your message, with at least 20 characters
+              </span>
             )}
             <button className="primary-button" type="submit">
               <LazyLoadImage
