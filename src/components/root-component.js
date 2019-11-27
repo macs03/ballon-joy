@@ -19,13 +19,13 @@ const RootComponent = () => (
       <Menu left width={"40%"}>
         <Link
           className="menu-item"
-          to="contact"
+          to="main"
           data-offset="-45"
           spy={true}
           smooth={true}
           duration={500}
         >
-          Book
+          Home
         </Link>
         <Link
           className="menu-item"

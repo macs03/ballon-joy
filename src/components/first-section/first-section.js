@@ -23,7 +23,7 @@ const FirstSection = () => (
       <h2>BOOK NOW!!!</h2>
       <div className="sub-title">
         <h4>Do you want a party?</h4>
-        <h4>Let mew know!</h4>
+        <h4>Let me know!</h4>
       </div>
     </div>
 
