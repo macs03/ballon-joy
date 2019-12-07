@@ -1,5 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-scroll";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import ImageGallery from "react-image-gallery";
 
@@ -64,16 +65,24 @@ const KidsNight = () => (
       <div className="title-kids">
         <span>Are you prepare for a unique momment?</span>
       </div>
-      <button className="secondary-button">
-        <LazyLoadImage
-          alt="email"
-          height="30%"
-          src={party}
-          width="30%"
-          effect="blur"
-        />
-        <span className="secondary-button-text">Make a party</span>
-      </button>
+      <Link
+        to="contact"
+        data-offset="-45"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        <button className="secondary-button">
+          <LazyLoadImage
+            alt="email"
+            height="30%"
+            src={party}
+            width="30%"
+            effect="blur"
+          />
+          <span className="secondary-button-text">Make a party</span>
+        </button>
+      </Link>
     </div>
     <div className="slide-gallery">
       <ImageGallery
@@ -87,16 +96,24 @@ const KidsNight = () => (
       />
     </div>
     <div className="footer-kids">
-      <button className="secondary-button">
-        <LazyLoadImage
-          alt="email"
-          height="30%"
-          src={calendar}
-          width="30%"
-          effect="blur"
-        />
-        <span className="secondary-button-text">Schedulme</span>
-      </button>
+      <Link
+        to="contact"
+        data-offset="-45"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        <button className="secondary-button">
+          <LazyLoadImage
+            alt="email"
+            height="30%"
+            src={calendar}
+            width="30%"
+            effect="blur"
+          />
+          <span className="secondary-button-text">Schedulme</span>
+        </button>
+      </Link>
     </div>
   </section>
 );
