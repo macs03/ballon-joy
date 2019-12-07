@@ -60,42 +60,72 @@ const Contact = () => {
         <span className="contact-title">Contact us</span>
         <div className="social-content">
           <div className="phone">
-            <span className="contact-info">+1 (313) 335-2019</span>
-            <LazyLoadImage
-              alt="whatsapp"
-              height="25px"
-              src={whatsapp}
-              width="25px"
-              effect="blur"
-              className="whatsapp"
-            />
+            <a
+              href="tel:1-313-335-2019"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="contact-info">+1 (313) 335-2019</span>
+            </a>
+            <a
+              href="https://wa.me/13133352019?text=I'm%20interested%20in%20a%20party%20for%20my%20kids"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LazyLoadImage
+                alt="whatsapp"
+                height="25px"
+                src={whatsapp}
+                width="25px"
+                effect="blur"
+                className="whatsapp"
+              />
+            </a>
           </div>
           <div className="address">
             <span className="contact-info">Detroit, Michigan</span>
             <span className="contact-info">USA</span>
           </div>
           <div className="social-network">
-            <LazyLoadImage
-              alt="whatsapp"
-              height="25px"
-              src={facebook}
-              width="25px"
-              effect="blur"
-            />
-            <LazyLoadImage
-              alt="whatsapp"
-              height="25px"
-              src={instagram}
-              width="25px"
-              effect="blur"
-            />
-            <LazyLoadImage
-              alt="whatsapp"
-              height="25px"
-              src={twitter}
-              width="25px"
-              effect="blur"
-            />
+            <a
+              href="https://www.facebook.com/balloonjoymi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LazyLoadImage
+                alt="facebook"
+                height="25px"
+                src={facebook}
+                width="25px"
+                effect="blur"
+              />
+            </a>
+            <a
+              href="https://instagram.com/balloonjoymi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LazyLoadImage
+                alt="instagram"
+                height="25px"
+                src={instagram}
+                width="25px"
+                effect="blur"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/balloonjoymi/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LazyLoadImage
+                alt="twitter"
+                height="25px"
+                src={twitter}
+                width="25px"
+                effect="blur"
+              />
+            </a>
           </div>
         </div>
       </div>
