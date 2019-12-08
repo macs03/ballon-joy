@@ -58,3 +58,15 @@
   font-size: 0.5em;
   margin: 0 0 1em 1em;
 }
+
+/* ==========================================================================
+     Media Queries - bigger than 500px
+ ========================================================================== */
+
+@media only screen and (min-width: 500px) {
+  .gallery-container {
+    max-height: 820px;
+    width: 80vw;
+    margin: auto;
+  }
+}

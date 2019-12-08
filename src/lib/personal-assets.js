@@ -27,115 +27,128 @@ import image26 from "../assets/ballonJommy/e50bca2f-9dc6-4798-a8a7-29d428d3994b.
 import image27 from "../assets/ballonJommy/622178fe-1c00-4052-9218-dd3e48a91707.JPG";
 import image28 from "../assets/ballonJommy/fea18bfa-6bfb-4543-99ec-2eba050b7047.JPG";
 
+let width;
+
+if (window.matchMedia("(min-width: 500px)").matches) {
+  width = 4;
+} else {
+  width = 2;
+}
+
 const photos = [
   {
     src: image1,
-    width: 4,
+    width,
     height: 3,
     category: "events"
   },
   {
     src: image2,
-    width: 1,
-    height: 1,
+    width,
+    height: 3,
     category: "events"
   },
   {
     src: image3,
-    width: 3,
-    height: 4,
+    width,
+    height: 3,
     category: "events"
   },
   {
     src: image4,
-    width: 3,
-    height: 4,
+    width,
+    height: 3,
     category: "events"
   },
   {
     src: image5,
-    width: 3,
-    height: 4,
-    category: "events"
+    width,
+    height: 3,
+    category: "bouquets"
   },
   {
     src: image6,
-    width: 4,
+    width,
     height: 3,
     category: "events"
   },
   {
     src: image7,
-    width: 3,
-    height: 4,
+    width,
+    height: 3,
     category: "decorations"
   },
   {
     src: image8,
-    width: 4,
+    width,
     height: 3,
     category: "decorations"
   },
   {
     src: image9,
-    width: 4,
+    width,
     height: 3,
     category: "decorations"
   },
   {
     src: image10,
-    width: 3,
-    height: 4,
+    width,
+    height: 3,
     category: "decorations"
   },
   {
     src: image11,
-    width: 4,
+    width,
     height: 3,
     category: "decorations"
   },
   {
     src: image12,
-    width: 4927,
-    height: 1000,
+    width,
+    height: 3,
     category: "bouquets"
   },
   {
     src: image13,
-    width: 4,
+    width,
     height: 3,
     category: "bouquets"
   },
   {
     src: image14,
-    width: 4,
+    width,
     height: 3,
     category: "bouquets"
   },
   {
     src: image15,
-    width: 4,
+    width,
     height: 3,
     category: "bouquets"
   },
   {
     src: image16,
-    width: 4,
+    width,
     height: 3,
     category: "events"
   },
   {
     src: image17,
-    width: 4,
+    width,
     height: 3,
     category: "decorations"
+  },
+  {
+    src: image18,
+    width,
+    height: 3,
+    category: "bouquets"
   }
 ];
 
 export const anotherImages = {
   services: [image19],
   slider: [
-    image18,
     image20,
     image21,
     image22,
