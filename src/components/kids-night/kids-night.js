@@ -42,30 +42,6 @@ const images = [
   {
     original: anotherImages.slider[3],
     thumbnail: anotherImages.slider[3]
-  },
-  {
-    original: anotherImages.slider[4],
-    thumbnail: anotherImages.slider[4]
-  },
-  {
-    original: anotherImages.slider[5],
-    thumbnail: anotherImages.slider[5]
-  },
-  {
-    original: anotherImages.slider[6],
-    thumbnail: anotherImages.slider[6]
-  },
-  {
-    original: anotherImages.slider[7],
-    thumbnail: anotherImages.slider[7]
-  },
-  {
-    original: anotherImages.slider[8],
-    thumbnail: anotherImages.slider[8]
-  },
-  {
-    original: anotherImages.slider[9],
-    thumbnail: anotherImages.slider[9]
   }
 ];
 

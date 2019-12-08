@@ -10,7 +10,6 @@ import image9 from "../assets/ballonJommy/32f5fb44-31af-4e0a-8044-6b6d92f47818.J
 import image10 from "../assets/ballonJommy/8780c35b-855c-43fd-9d52-582de2d2db24.JPG";
 import image11 from "../assets/ballonJommy/35210957-651a-4109-923c-afd799811c16.JPG";
 import image12 from "../assets/ballonJommy/9d7ff2e1-4793-47a3-a196-ef3a6ab0bb75.JPG";
-import image13 from "../assets/ballonJommy/3a317dd7-596b-4690-9f71-e5e6572fbe66.JPG";
 import image14 from "../assets/ballonJommy/a3d29a45-cd3f-416e-b669-2ce50bf05c22.JPG";
 import image15 from "../assets/ballonJommy/3b7802e4-0ce2-4c7e-9ff3-5a648b230187.JPG";
 import image16 from "../assets/ballonJommy/a895e552-9cf1-448f-978a-0539a98cbec3.JPG";
@@ -40,7 +39,7 @@ const photos = [
     src: image1,
     width,
     height: 3,
-    category: "events"
+    category: "bouquets"
   },
   {
     src: image2,
@@ -58,13 +57,13 @@ const photos = [
     src: image4,
     width,
     height: 3,
-    category: "events"
+    category: "bouquets"
   },
   {
     src: image5,
     width,
     height: 3,
-    category: "bouquets"
+    category: "events"
   },
   {
     src: image6,
@@ -100,46 +99,64 @@ const photos = [
     src: image11,
     width,
     height: 3,
-    category: "decorations"
+    category: "events"
   },
   {
     src: image12,
     width,
     height: 3,
-    category: "bouquets"
-  },
-  {
-    src: image13,
-    width,
-    height: 3,
-    category: "bouquets"
+    category: "decorations"
   },
   {
     src: image14,
     width,
     height: 3,
-    category: "bouquets"
+    category: "events"
   },
   {
     src: image15,
     width,
     height: 3,
-    category: "bouquets"
+    category: "events"
   },
   {
     src: image16,
     width,
     height: 3,
-    category: "events"
+    category: "decorations"
   },
   {
     src: image17,
     width,
     height: 3,
-    category: "decorations"
+    category: "bouquets"
   },
   {
     src: image18,
+    width,
+    height: 3,
+    category: "bouquets"
+  },
+  {
+    src: image27,
+    width,
+    height: 3,
+    category: "events"
+  },
+  {
+    src: image22,
+    width,
+    height: 3,
+    category: "decorations"
+  },
+  {
+    src: image21,
+    width,
+    height: 3,
+    category: "bouquets"
+  },
+  {
+    src: image25,
     width,
     height: 3,
     category: "bouquets"
