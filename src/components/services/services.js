@@ -19,6 +19,95 @@ const Services = () => (
     <div className="services-container">
       <div className="service-item">
         <LazyLoadImage
+          alt="events"
+          height="100%"
+          src={anotherImages.services[0]}
+          width="90%"
+          effect="blur"
+        />
+        <div className="service-description">
+          <span className="title-item">FACE PAINTING</span>
+          <p>
+            Per 1 artist: $120 for two services if you booked only for one hour
+            (depending upon amount of children).
+          </p>
+          <p>
+            <span className="title-item">Important: </span> <br />- Please note
+            that price are only for 1 artist. <br />- We travel no more than 40
+            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
+            <br />- It is an additional $25 for the artist to come dressed in
+            little Clown <br />- To book we request 30% in advance (Venmo, cash
+            app, zelle, Paypal).
+          </p>
+          <span className="price">from $100/hr</span>
+        </div>
+      </div>
+      <div className="service-item">
+        <LazyLoadImage
+          alt="events"
+          height="100%"
+          src={anotherImages.services[1]}
+          width="90%"
+          effect="blur"
+        />
+        <div className="service-description">
+          <span className="title-item">BALLOON TWISTING</span>
+          <p>
+            Per 1 artist: $120 for two services if you booked only for one hour
+            (depending upon amount of children).
+          </p>
+          <p>
+            <span className="title-item">Important: </span> <br />- Please note
+            that price are only for 1 artist. <br />- We travel no more than 40
+            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
+            <br />- It is an additional $25 for the artist to come dressed in
+            little Clown <br />- To book we request 30% in advance (Venmo, cash
+            app, zelle, Paypal).
+          </p>
+          <span className="price">from $100/hr</span>
+        </div>
+      </div>
+      <div className="service-item">
+        <LazyLoadImage
+          alt="events"
+          height="100%"
+          src={anotherImages.services[3]}
+          width="90%"
+          effect="blur"
+        />
+        <div className="service-description">
+          <span className="title-item">GLITTER TATOOS</span>
+          <p>
+            Per 1 artist: $120 for two services if you booked only for one hour
+            (depending upon amount of children).
+          </p>
+          <p>
+            <span className="title-item">Important: </span> <br />- Please note
+            that price are only for 1 artist. <br />- We travel no more than 40
+            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
+            <br />- It is an additional $25 for the artist to come dressed in
+            little Clown <br />- To book we request 30% in advance (Venmo, cash
+            app, zelle, Paypal).
+          </p>
+          <span className="price">from $100/hr</span>
+        </div>
+      </div>
+      <div className="service-item">
+        <LazyLoadImage
+          alt="events"
+          height="100%"
+          src={anotherImages.services[2]}
+          width="90%"
+          effect="blur"
+        />
+        <div className="service-description">
+          <span className="title-item">HENNA</span>
+          <p>This service is performed by an exclusive artist.</p>
+          <span className="price">from $100/hr</span>
+        </div>
+      </div>
+      <div className="service-item">
+        <LazyLoadImage
           alt="party"
           height="100%"
           src={party}
@@ -73,95 +162,6 @@ const Services = () => (
           <span className="price">
             (50% is required to book, not refundable)
           </span>
-        </div>
-      </div>
-      <div className="service-item">
-        <LazyLoadImage
-          alt="events"
-          height="100%"
-          src={anotherImages.services[0]}
-          width="90%"
-          effect="blur"
-        />
-        <div className="service-description">
-          <span className="title-item">FACE PAINTING</span>
-          <p>
-            Per 1 artist: $120 for two services if you booked only for one hour
-            (depending upon amount of children).
-          </p>
-          <p>
-            <span className="title-item">Important: </span> <br />- Please note
-            that price are only for 1 artist. <br />- We travel no more than 40
-            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
-            <br />- It is an additional $25 for the artist to come dressed in
-            little Clown <br />- To book we request 30% in advance (Venmo, cash
-            app, zelle, Paypal).
-          </p>
-          <span className="price">from $100/hr</span>
-        </div>
-      </div>
-      <div className="service-item">
-        <LazyLoadImage
-          alt="events"
-          height="100%"
-          src={anotherImages.services[0]}
-          width="90%"
-          effect="blur"
-        />
-        <div className="service-description">
-          <span className="title-item">BALLOON TWISTING</span>
-          <p>
-            Per 1 artist: $120 for two services if you booked only for one hour
-            (depending upon amount of children).
-          </p>
-          <p>
-            <span className="title-item">Important: </span> <br />- Please note
-            that price are only for 1 artist. <br />- We travel no more than 40
-            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
-            <br />- It is an additional $25 for the artist to come dressed in
-            little Clown <br />- To book we request 30% in advance (Venmo, cash
-            app, zelle, Paypal).
-          </p>
-          <span className="price">from $100/hr</span>
-        </div>
-      </div>
-      <div className="service-item">
-        <LazyLoadImage
-          alt="events"
-          height="100%"
-          src={anotherImages.services[0]}
-          width="90%"
-          effect="blur"
-        />
-        <div className="service-description">
-          <span className="title-item">GLITTER TATOOS</span>
-          <p>
-            Per 1 artist: $120 for two services if you booked only for one hour
-            (depending upon amount of children).
-          </p>
-          <p>
-            <span className="title-item">Important: </span> <br />- Please note
-            that price are only for 1 artist. <br />- We travel no more than 40
-            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
-            <br />- It is an additional $25 for the artist to come dressed in
-            little Clown <br />- To book we request 30% in advance (Venmo, cash
-            app, zelle, Paypal).
-          </p>
-          <span className="price">from $100/hr</span>
-        </div>
-      </div>
-      <div className="service-item">
-        <LazyLoadImage
-          alt="events"
-          height="100%"
-          src={anotherImages.services[0]}
-          width="90%"
-          effect="blur"
-        />
-        <div className="service-description">
-          <span className="title-item">HENNA</span>
-          <p>This service is performed by an exclusive artist.</p>
-          <span className="price">from $100/hr</span>
         </div>
       </div>
     </div>

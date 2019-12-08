@@ -147,18 +147,8 @@ const photos = [
 ];
 
 export const anotherImages = {
-  services: [image19],
-  slider: [
-    image20,
-    image21,
-    image22,
-    image23,
-    image24,
-    image25,
-    image26,
-    image27,
-    image28
-  ]
+  services: [image19, image24, image23, image26],
+  slider: [image20, image21, image25, image28]
 };
 
 export default photos;
