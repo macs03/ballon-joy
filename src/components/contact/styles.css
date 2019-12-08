@@ -106,3 +106,17 @@ form button {
   width: 41% !important;
   align-self: flex-start;
 }
+
+/* ==========================================================================
+     Media Queries - bigger than 500px
+ ========================================================================== */
+
+@media only screen and (min-width: 500px) {
+  .contact {
+    flex-direction: row;
+    height: 880px;
+  }
+  .send-button {
+    width: 13em !important;
+  }
+}

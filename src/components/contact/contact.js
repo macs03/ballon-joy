@@ -1,5 +1,6 @@
 import React from "react";
 import useForm from "react-hook-form";
+import moment from "moment";
 import { useToasts } from "react-toast-notifications";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
@@ -19,6 +20,8 @@ const serviceID = "gmailtest";
 const templateID = "template_ziReR0i8";
 
 const Contact = () => {
+  const today = moment().format("YYYY-MM-DD");
+
   // Init service for email
   emailJs.init(userID);
 
@@ -182,7 +185,8 @@ const Contact = () => {
             <input
               name="date"
               type="date"
-              placeholder="Date"
+              placeholder={today}
+              min={today}
               ref={register({ required: true })}
             />
             {errors.phone && (
@@ -207,7 +211,7 @@ const Contact = () => {
                 Please enter your message, with at least 20 characters
               </span>
             )}
-            <button className="primary-button" type="submit">
+            <button className="primary-button send-button" type="submit">
               <LazyLoadImage
                 alt="email"
                 height="30%"
