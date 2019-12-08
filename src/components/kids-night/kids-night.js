@@ -8,7 +8,9 @@ import { anotherImages } from "../../lib/personal-assets.js";
 
 import party from "../../assets/images/icon-fest.svg";
 import calendar from "../../assets/images/icon-calendar.svg";
-import slide1 from "../../assets/images/img-slide_prueba.svg";
+import slide1 from "../../assets/images/img-slide_prueba.png";
+import slide2 from "../../assets/images/img-slide_eventos.png";
+import slide3 from "../../assets/images/img-slide_ball-twisting.png";
 
 import "./styles.css";
 
@@ -16,6 +18,14 @@ const images = [
   {
     original: slide1,
     thumbnail: slide1
+  },
+  {
+    original: slide2,
+    thumbnail: slide2
+  },
+  {
+    original: slide3,
+    thumbnail: slide3
   },
   {
     original: anotherImages.slider[0],

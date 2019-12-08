@@ -4,9 +4,9 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 import { anotherImages } from "../../lib/personal-assets.js";
 
-import party from "../../assets/images/img-fiesta.svg";
-import decoration from "../../assets/images/img-decoracion.svg";
-import bouquets from "../../assets/images/img-bouquets.svg";
+import party from "../../assets/images/img-fiesta.png";
+import decoration from "../../assets/images/img-decoracion.png";
+import bouquets from "../../assets/images/img-bouquets.png";
 
 import "./styles.css";
 

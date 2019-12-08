@@ -11,8 +11,8 @@ import "./styles.css";
 import facebook from "../../assets/images/icon-facebook.svg";
 import instagram from "../../assets/images/icon-instagram.svg";
 import twitter from "../../assets/images/icon-twitter.svg";
-import whatsapp from "../../assets/images/icon-whatsapp.svg";
-import email from "../../assets/images/icon-email.svg";
+import whatsapp from "../../assets/images/icon-whatsapp.png";
+import email from "../../assets/images/icon-email.png";
 
 const userID = "user_XhWjzmKsGW4hcx0ogon6e";
 const serviceID = "gmailtest";
