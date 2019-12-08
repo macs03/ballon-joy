@@ -86,6 +86,13 @@ const Contact = () => {
               />
             </a>
           </div>
+          <a
+            href="mailto:balloonjoymi@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="contact-info">balloonjoymi@gmail.com</span>
+          </a>
           <div className="address">
             <span className="contact-info">Detroit, Michigan</span>
             <span className="contact-info">USA</span>
