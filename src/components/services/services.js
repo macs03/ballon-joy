@@ -20,7 +20,7 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="party"
-          height="40%"
+          height="100%"
           src={party}
           width="90%"
           effect="blur"
@@ -45,7 +45,7 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="decoration"
-          height="40%"
+          height="100%"
           src={decoration}
           width="90%"
           effect="blur"
@@ -62,7 +62,7 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="bouquets"
-          height="40%"
+          height="100%"
           src={bouquets}
           width="90%"
           effect="blur"
@@ -78,7 +78,7 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="40%"
+          height="100%"
           src={anotherImages.services[0]}
           width="90%"
           effect="blur"
@@ -103,7 +103,7 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="40%"
+          height="100%"
           src={anotherImages.services[0]}
           width="90%"
           effect="blur"
@@ -128,7 +128,7 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="40%"
+          height="100%"
           src={anotherImages.services[0]}
           width="90%"
           effect="blur"
@@ -153,7 +153,7 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="40%"
+          height="100%"
           src={anotherImages.services[0]}
           width="90%"
           effect="blur"

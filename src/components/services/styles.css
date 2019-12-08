@@ -38,6 +38,7 @@
   align-items: center;
   width: 100%;
   margin: 2em 0 2em 0;
+  height: 600px;
 }
 
 .service-description {
@@ -46,7 +47,7 @@
   align-items: center;
   justify-content: space-around;
   width: 87%;
-  height: 60%;
+  height: 70%;
   margin: 1.5em 0 1em 0;
 }
 
@@ -67,4 +68,19 @@
   font-family: "OpenSansSemiBold";
   color: var(--maincolorlight);
   font-size: 1;
+}
+
+/* ==========================================================================
+     Media Queries - bigger than 500px
+ ========================================================================== */
+
+@media only screen and (min-width: 500px) {
+  .services-container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .service-item {
+    width: 25vw;
+  }
 }
