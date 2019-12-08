@@ -44,7 +44,7 @@ const FirstSection = () => (
             width="30%"
             effect="blur"
           />
-          <span className="button-text">Send me a email</span>
+          <span className="button-text">Send me an email</span>
         </button>
       </Link>
       <a
@@ -52,7 +52,7 @@ const FirstSection = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className="primary-button">
+        <button className="primary-button whatsapp">
           <LazyLoadImage
             alt="whatsapp"
             height="30%"

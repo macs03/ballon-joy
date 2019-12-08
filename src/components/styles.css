@@ -37,3 +37,13 @@
 .bm-item:focus {
   outline: none;
 }
+
+/* ==========================================================================
+     Media Queries - bigger than 500px
+ ========================================================================== */
+
+@media only screen and (min-width: 500px) {
+  .bm-burger-button {
+    display: none;
+  }
+}

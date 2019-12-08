@@ -71,6 +71,7 @@ const Contact = () => {
               href="https://wa.me/13133352019?text=I'm%20interested%20in%20a%20party%20for%20my%20kids"
               target="_blank"
               rel="noopener noreferrer"
+              className="whatsapp"
             >
               <LazyLoadImage
                 alt="whatsapp"
