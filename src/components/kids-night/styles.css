@@ -44,3 +44,13 @@
 .image-gallery-slide img {
   max-height: 300px !important;
 }
+
+/* ==========================================================================
+     Media Queries - bigger than 500px
+ ========================================================================== */
+
+@media only screen and (min-width: 500px) {
+  .image-gallery-slide img {
+    max-height: 700px !important;
+  }
+}
