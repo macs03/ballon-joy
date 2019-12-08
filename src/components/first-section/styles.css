@@ -16,6 +16,11 @@
   background-color: var(--maincolor);
 }
 
+.logo-responsive {
+  opacity: 0;
+  position: absolute;
+}
+
 .logo {
   width: 150px;
   height: 150px;
@@ -86,5 +91,15 @@
   }
   .whatsapp {
     display: none !important;
+  }
+  .logo-responsive {
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  .logo-responsive h1 {
+    opacity: 0;
+    position: absolute;
   }
 }

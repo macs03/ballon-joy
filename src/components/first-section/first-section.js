@@ -11,6 +11,17 @@ import "./styles.css";
 
 const FirstSection = () => (
   <section id="main" className="main">
+    <div className="logo-responsive">
+      <h1>Balloon joy mi</h1>
+      <LazyLoadImage
+        alt="ballon-joy"
+        height="100%"
+        src={whiteLogo}
+        width="90%"
+        effect="blur"
+      />
+    </div>
+
     <div className="logo">
       <LazyLoadImage
         alt="ballon-joy"
