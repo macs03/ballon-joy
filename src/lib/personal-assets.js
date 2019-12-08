@@ -160,6 +160,12 @@ const photos = [
     width,
     height: 3,
     category: "bouquets"
+  },
+  {
+    src: image28,
+    width,
+    height: 3,
+    category: "bouquets"
   }
 ];
 
