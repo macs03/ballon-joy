@@ -69,6 +69,58 @@ const RootComponent = () => (
         </Link>
       </Menu>
     </div>
+    <div className="menu-container-responsive">
+      <Link
+        className="menu-item"
+        to="main"
+        data-offset="-45"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Home
+      </Link>
+      <Link
+        className="menu-item"
+        to="services"
+        data-offset="-45"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Our Services
+      </Link>
+      <Link
+        className="menu-item"
+        to="kids-night"
+        data-offset="-45"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Kids Night
+      </Link>
+      <Link
+        className="menu-item"
+        to="gallery"
+        data-offset="-45"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Gallery
+      </Link>
+      <Link
+        className="menu-item"
+        to="contact"
+        data-offset="-45"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        Contact
+      </Link>
+    </div>
     <FirstSection />
     <Services />
     <KidsNight />

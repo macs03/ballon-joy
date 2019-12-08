@@ -38,6 +38,10 @@
   outline: none;
 }
 
+.menu-container-responsive {
+  display: none;
+}
+
 /* ==========================================================================
      Media Queries - bigger than 500px
  ========================================================================== */
@@ -45,5 +49,24 @@
 @media only screen and (min-width: 500px) {
   .bm-burger-button {
     display: none;
+  }
+  .menu-container-responsive {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    justify-content: space-around;
+    align-items: center;
+    width: 45vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 2.5em;
+  }
+  .menu-item {
+    color: var(--white);
+    text-decoration: none;
+    padding: 1em;
+    font-family: "OpenSansRegular";
+    font-size: 1em;
   }
 }
