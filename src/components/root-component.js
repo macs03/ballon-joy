@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { bubble as Menu } from "react-burger-menu";
+import Modal from "react-modal";
 
 import { ToastProvider } from "react-toast-notifications";
 
@@ -10,11 +11,13 @@ import KidsNight from "./kids-night/kids-night";
 import Gallery from "./gallery/gallery";
 import Contact from "./contact/contact";
 import Footer from "./footer/footer";
+import Pricing from "./pricing/pricing";
 
 import "./styles.css";
 
 const RootComponent = () => {
   const [isMenuOpen, setisMenuOpen] = useState(false);
+  const [modalIsOpen, setmodalIsOpen] = useState(false);
 
   const handleStateChange = state => {
     setisMenuOpen(state.isOpen);
@@ -22,6 +25,14 @@ const RootComponent = () => {
 
   const closeMenu = () => {
     setisMenuOpen(false);
+  };
+
+  const openModal = () => {
+    setmodalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setmodalIsOpen(false);
   };
 
   return (
@@ -54,6 +65,15 @@ const RootComponent = () => {
             onClick={closeMenu}
           >
             Our Services
+          </Link>
+          <Link
+            className="menu-item"
+            onClick={() => {
+              closeMenu();
+              openModal();
+            }}
+          >
+            Pricing
           </Link>
           <Link
             className="menu-item"
@@ -113,6 +133,15 @@ const RootComponent = () => {
         </Link>
         <Link
           className="menu-item"
+          onClick={() => {
+            closeMenu();
+            openModal();
+          }}
+        >
+          Pricing
+        </Link>
+        <Link
+          className="menu-item"
           to="kids-night"
           data-offset="-45"
           spy={true}
@@ -150,6 +179,14 @@ const RootComponent = () => {
         <Contact />
       </ToastProvider>
       <Footer />
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        className="modal"
+        contentLabel="Pricing"
+      >
+        <Pricing />
+      </Modal>
     </div>
   );
 };

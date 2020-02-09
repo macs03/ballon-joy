@@ -4,7 +4,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 import { anotherImages } from "../../lib/personal-assets.js";
 
-import party from "../../assets/images/img-fiesta.png";
+// import party from "../../assets/images/img-fiesta.png";
 import decoration from "../../assets/images/img-decoracion.png";
 import bouquets from "../../assets/images/img-bouquets.png";
 
@@ -27,19 +27,6 @@ const Services = () => (
         />
         <div className="service-description">
           <span className="title-item">FACE PAINTING</span>
-          <p>
-            Per 1 artist: $120 for two services if you booked only for one hour
-            (depending upon amount of children).
-          </p>
-          <p>
-            <span className="title-item">Important: </span> <br />- Please note
-            that price are only for 1 artist. <br />- We travel no more than 40
-            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
-            <br />- It is an additional $25 for the artist to come dressed in
-            little Clown <br />- To book we request 30% in advance (Venmo, cash
-            app, zelle, Paypal).
-          </p>
-          <span className="price">from $100/hr</span>
         </div>
       </div>
       <div className="service-item">
@@ -52,19 +39,6 @@ const Services = () => (
         />
         <div className="service-description">
           <span className="title-item">BALLOON TWISTING</span>
-          <p>
-            Per 1 artist: $120 for two services if you booked only for one hour
-            (depending upon amount of children).
-          </p>
-          <p>
-            <span className="title-item">Important: </span> <br />- Please note
-            that price are only for 1 artist. <br />- We travel no more than 40
-            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
-            <br />- It is an additional $25 for the artist to come dressed in
-            little Clown <br />- To book we request 30% in advance (Venmo, cash
-            app, zelle, Paypal).
-          </p>
-          <span className="price">from $100/hr</span>
         </div>
       </div>
       <div className="service-item">
@@ -77,19 +51,6 @@ const Services = () => (
         />
         <div className="service-description">
           <span className="title-item">GLITTER TATOOS</span>
-          <p>
-            Per 1 artist: $120 for two services if you booked only for one hour
-            (depending upon amount of children).
-          </p>
-          <p>
-            <span className="title-item">Important: </span> <br />- Please note
-            that price are only for 1 artist. <br />- We travel no more than 40
-            miles from Dearborn. <br />- Sometimes transportation fee applies.{" "}
-            <br />- It is an additional $25 for the artist to come dressed in
-            little Clown <br />- To book we request 30% in advance (Venmo, cash
-            app, zelle, Paypal).
-          </p>
-          <span className="price">from $100/hr</span>
         </div>
       </div>
       <div className="service-item">
@@ -102,8 +63,6 @@ const Services = () => (
         />
         <div className="service-description">
           <span className="title-item">HENNA</span>
-          <p>This service is performed by an exclusive artist.</p>
-          <span className="price">from $100/hr</span>
         </div>
       </div>
       {/* <div className="service-item">
@@ -141,11 +100,6 @@ const Services = () => (
         />
         <div className="service-description">
           <span className="title-item">BALLOON DECORATION</span>
-          <p>Quotes based on designs and measurements.</p>
-
-          <span className="price">
-            (50% is required to book, not refundable)
-          </span>
         </div>
       </div>
       <div className="service-item">
@@ -158,10 +112,6 @@ const Services = () => (
         />
         <div className="service-description">
           <span className="title-item">BALLOON BOUQUETS</span>
-          <p>Quotes based on designs and measurements.</p>
-          <span className="price">
-            (50% is required to book, not refundable)
-          </span>
         </div>
       </div>
     </div>
