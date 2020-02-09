@@ -26,22 +26,6 @@ const images = [
   {
     original: slide3,
     thumbnail: slide3
-  },
-  {
-    original: anotherImages.slider[0],
-    thumbnail: anotherImages.slider[0]
-  },
-  {
-    original: anotherImages.slider[1],
-    thumbnail: anotherImages.slider[1]
-  },
-  {
-    original: anotherImages.slider[2],
-    thumbnail: anotherImages.slider[2]
-  },
-  {
-    original: anotherImages.slider[3],
-    thumbnail: anotherImages.slider[3]
   }
 ];
 

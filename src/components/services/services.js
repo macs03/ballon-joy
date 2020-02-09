@@ -106,7 +106,7 @@ const Services = () => (
           <span className="price">from $100/hr</span>
         </div>
       </div>
-      <div className="service-item">
+      {/* <div className="service-item">
         <LazyLoadImage
           alt="party"
           height="100%"
@@ -130,7 +130,7 @@ const Services = () => (
           </p>
           <span className="price">from $100/hr</span>
         </div>
-      </div>
+      </div> */}
       <div className="service-item">
         <LazyLoadImage
           alt="decoration"

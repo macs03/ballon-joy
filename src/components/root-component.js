@@ -64,7 +64,7 @@ const RootComponent = () => {
             duration={500}
             onClick={closeMenu}
           >
-            Kids Night
+            Kids Zone
           </Link>
           <Link
             className="menu-item"
@@ -119,7 +119,7 @@ const RootComponent = () => {
           smooth={true}
           duration={500}
         >
-          Kids Night
+          Kids Zone
         </Link>
         <Link
           className="menu-item"

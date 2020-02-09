@@ -55,10 +55,10 @@ const FirstSection = () => (
             width="30%"
             effect="blur"
           />
-          <span className="button-text">Send me an email</span>
+          <span className="button-text">Book an event!!!</span>
         </button>
       </Link>
-      <a
+      {/* <a
         href="https://wa.me/13133352019?text=I'm%20interested%20in%20a%20party%20for%20my%20kids"
         target="_blank"
         rel="noopener noreferrer"
@@ -71,9 +71,9 @@ const FirstSection = () => (
             width="30%"
             effect="blur"
           />
-          <span className="button-text">Whatsapp me</span>
+          <span className="button-text">Text me</span>
         </button>
-      </a>
+      </a> */}
     </div>
   </section>
 );
