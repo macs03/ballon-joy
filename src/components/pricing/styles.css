@@ -1,0 +1,45 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  height: 530px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+.happy {
+  font-family: "LuckiestGuy";
+  color: var(--maincolor);
+  font-size: 1.5em;
+  text-align: center;
+}
+.service-modal {
+  font-family: "OpenSansSemiBold";
+  color: var(--maincolor);
+  font-size: 1.1em;
+}
+.pricing {
+  padding: 2em;
+}
+
+/* ==========================================================================
+     Media Queries - Smaller than 500px
+ ========================================================================== */
+
+@media only screen and (max-width: 500px) {
+  .modal {
+    width: 90%;
+    height: 35%;
+  }
+  .pricing {
+    padding: 1em;
+  }
+}
