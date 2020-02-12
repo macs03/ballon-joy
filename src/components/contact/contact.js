@@ -193,7 +193,7 @@ const Contact = () => {
             )}
 
             <label for="services" className="contact-title">
-              Choose a service:
+              Choose some service:
             </label>
             <select
               name="services"
@@ -227,7 +227,7 @@ const Contact = () => {
               </span>
             )}
             <label for="time" className="contact-title">
-              Choose a estimated time:
+              Choose an estimated time:
             </label>
             <input
               placeholder="Estimated time"
