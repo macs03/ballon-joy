@@ -37,7 +37,10 @@ const Contact = () => {
       to_name: "Balloon Joy",
       cell_phone: data.phone,
       message_html: data.message,
-      date: data.date
+      date: data.date,
+      time: data.time,
+      address: data.address,
+      services: data.services
     };
 
     emailJs.send(serviceID, templateID, template_params).then(
@@ -192,7 +195,12 @@ const Contact = () => {
             <label for="services" className="contact-title">
               Choose a service:
             </label>
-            <select id="services" multiple ref={register({ required: true })}>
+            <select
+              name="services"
+              id="services"
+              multiple
+              ref={register({ required: true })}
+            >
               <option value="FACE PAINTING">FACE PAINTING</option>
               <option value="BALLOON TWISTING">BALLOON TWISTING</option>
               <option value="GLITTER TATOOS">GLITTER TATOOS</option>
@@ -200,7 +208,7 @@ const Contact = () => {
               <option value="BALLOON DECORATION">BALLOON DECORATION</option>
               <option value="BALLOON BOUQUETS">BALLOON BOUQUETS</option>
             </select>
-            {errors.phone && (
+            {errors.services && (
               <span className="contact-title">Please choose a service.</span>
             )}
 
@@ -211,14 +219,19 @@ const Contact = () => {
               min={today}
               ref={register({ required: true })}
             />
-            {errors.phone && (
+            {errors.date && (
               <span className="contact-title">
                 Please enter an estimate date.
               </span>
             )}
 
-            <input name="time" type="time" ref={register({ required: true })} />
-            {errors.phone && (
+            <input
+              placeholder="Estimated time"
+              name="time"
+              type="time"
+              ref={register({ required: true })}
+            />
+            {errors.time && (
               <span className="contact-title">
                 Please enter an estimate time.
               </span>
@@ -229,7 +242,7 @@ const Contact = () => {
               placeholder="Event Address"
               ref={register({ required: true })}
             />
-            {errors.subject && (
+            {errors.address && (
               <span className="contact-title">Address is required.</span>
             )}
             <textarea
