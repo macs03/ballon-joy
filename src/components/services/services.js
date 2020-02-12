@@ -4,10 +4,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 import { anotherImages } from "../../lib/personal-assets.js";
 
-// import party from "../../assets/images/img-fiesta.png";
-import decoration from "../../assets/images/img-decoracion.png";
-import bouquets from "../../assets/images/img-bouquets.png";
-
 import "./styles.css";
 
 const Services = () => (
@@ -20,9 +16,9 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="100%"
+          height={350}
           src={anotherImages.services[0]}
-          width="90%"
+          width={300}
           effect="blur"
         />
         <div className="service-description">
@@ -32,9 +28,9 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="100%"
+          height={350}
           src={anotherImages.services[1]}
-          width="90%"
+          width={300}
           effect="blur"
         />
         <div className="service-description">
@@ -44,9 +40,9 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="100%"
+          height={350}
           src={anotherImages.services[3]}
-          width="90%"
+          width={300}
           effect="blur"
         />
         <div className="service-description">
@@ -56,9 +52,9 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="events"
-          height="100%"
+          height={350}
           src={anotherImages.services[2]}
-          width="90%"
+          width={300}
           effect="blur"
         />
         <div className="service-description">
@@ -68,9 +64,9 @@ const Services = () => (
       {/* <div className="service-item">
         <LazyLoadImage
           alt="party"
-          height="100%"
+          height={350}
           src={party}
-          width="90%"
+          width={300}
           effect="blur"
         />
         <div className="service-description">
@@ -93,9 +89,9 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="decoration"
-          height="100%"
-          src={decoration}
-          width="90%"
+          height={350}
+          src={anotherImages.services[5]}
+          width={300}
           effect="blur"
         />
         <div className="service-description">
@@ -105,9 +101,9 @@ const Services = () => (
       <div className="service-item">
         <LazyLoadImage
           alt="bouquets"
-          height="100%"
-          src={bouquets}
-          width="90%"
+          height={350}
+          src={anotherImages.services[4]}
+          width={300}
           effect="blur"
         />
         <div className="service-description">

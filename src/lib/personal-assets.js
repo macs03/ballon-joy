@@ -25,6 +25,8 @@ import image25 from "../assets/ballonJommy/5f526caa-ac01-41ee-aa00-4c931cb39ebf.
 import image26 from "../assets/ballonJommy/e50bca2f-9dc6-4798-a8a7-29d428d3994b.JPG";
 import image27 from "../assets/ballonJommy/622178fe-1c00-4052-9218-dd3e48a91707.JPG";
 import image28 from "../assets/ballonJommy/fea18bfa-6bfb-4543-99ec-2eba050b7047.JPG";
+import image29 from "../assets/ballonJommy/YIQB8506.JPG";
+import image30 from "../assets/ballonJommy/OGAA5806.JPG";
 
 let width;
 
@@ -170,7 +172,7 @@ const photos = [
 ];
 
 export const anotherImages = {
-  services: [image19, image24, image23, image26],
+  services: [image19, image24, image23, image26, image29, image30],
   slider: [image20, image21, image25, image28]
 };
 
