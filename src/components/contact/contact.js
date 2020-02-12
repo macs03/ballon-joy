@@ -220,6 +220,7 @@ const Contact = () => {
               placeholder={today}
               min={today}
               ref={register({ required: true })}
+              className="date"
             />
             {errors.date && (
               <span className="contact-title">
@@ -234,6 +235,7 @@ const Contact = () => {
               name="time"
               type="time"
               ref={register({ required: true })}
+              className="date"
             />
             {errors.time && (
               <span className="contact-title">
