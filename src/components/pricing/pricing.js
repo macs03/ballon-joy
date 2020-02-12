@@ -1,8 +1,13 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-scroll";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
+import email from "../../assets/images/icon-email.png";
 
 import "./styles.css";
 
-const Pricing = () => (
+const Pricing = props => (
   <div className="pricing">
     <p className="happy">We are happy you let us be part of your event!</p>
     <span className="service-modal">
@@ -30,6 +35,27 @@ const Pricing = () => (
       Quotes based on designs and measurements. (50% is required to book, not
       refundable)
     </p>
+    <Link
+      to="contact"
+      data-offset="-45"
+      spy={true}
+      smooth={true}
+      duration={500}
+      onClick={() => {
+        props.closeModal();
+      }}
+    >
+      <button className="primary-button button-to-book">
+        <LazyLoadImage
+          alt="email"
+          height="30%"
+          src={email}
+          width="30%"
+          effect="blur"
+        />
+        <span className="button-text">Book an event!!!</span>
+      </button>
+    </Link>
   </div>
 );
 

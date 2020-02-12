@@ -30,13 +30,28 @@
   padding: 2em;
 }
 
+.close {
+  position: fixed;
+  top: 0;
+  right: 1em;
+  font-size: 1.15em;
+  font-family: "OpenSansRegular";
+  font-weight: bold;
+  color: var(--maincolor);
+  cursor: pointer;
+}
+
+.button-to-book {
+  margin: auto;
+}
+
 /* ==========================================================================
      Media Queries - Smaller than 500px
  ========================================================================== */
 
 @media only screen and (max-width: 500px) {
   .modal {
-    width: 90%;
+    width: 80%;
     height: 35%;
   }
   .pricing {

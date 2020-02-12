@@ -4,8 +4,6 @@ import { Link } from "react-scroll";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import ImageGallery from "react-image-gallery";
 
-import { anotherImages } from "../../lib/personal-assets.js";
-
 import party from "../../assets/images/icon-fest.svg";
 import calendar from "../../assets/images/icon-calendar.svg";
 import slide1 from "../../assets/images/img-slide_prueba.png";

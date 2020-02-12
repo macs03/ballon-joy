@@ -68,15 +68,6 @@ const RootComponent = () => {
           </Link>
           <Link
             className="menu-item"
-            onClick={() => {
-              closeMenu();
-              openModal();
-            }}
-          >
-            Pricing
-          </Link>
-          <Link
-            className="menu-item"
             to="kids-night"
             data-offset="-45"
             spy={true}
@@ -108,6 +99,15 @@ const RootComponent = () => {
           >
             Contact
           </Link>
+          <Link
+            className="menu-item"
+            onClick={() => {
+              closeMenu();
+              openModal();
+            }}
+          >
+            Pricing
+          </Link>
         </Menu>
       </div>
       <div className="menu-container-responsive">
@@ -130,15 +130,6 @@ const RootComponent = () => {
           duration={500}
         >
           Our Services
-        </Link>
-        <Link
-          className="menu-item"
-          onClick={() => {
-            closeMenu();
-            openModal();
-          }}
-        >
-          Pricing
         </Link>
         <Link
           className="menu-item"
@@ -170,6 +161,15 @@ const RootComponent = () => {
         >
           Contact
         </Link>
+        <Link
+          className="menu-item"
+          onClick={() => {
+            closeMenu();
+            openModal();
+          }}
+        >
+          Pricing
+        </Link>
       </div>
       <FirstSection />
       <Services />
@@ -185,7 +185,10 @@ const RootComponent = () => {
         className="modal"
         contentLabel="Pricing"
       >
-        <Pricing />
+        <div className="close" onClick={closeModal}>
+          <span>x</span>
+        </div>
+        <Pricing closeModal={closeModal} />
       </Modal>
     </div>
   );

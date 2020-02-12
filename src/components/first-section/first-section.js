@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 import whiteLogo from "../../assets/images/logo-white_BalloonJoy.png";
-import whatsapp from "../../assets/images/icon-whatsapp.png";
+
 import email from "../../assets/images/icon-email.png";
 
 import "./styles.css";
