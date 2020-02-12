@@ -189,19 +189,17 @@ const Contact = () => {
               </span>
             )}
 
-            <input
-              list="browsers"
-              name="browser"
-              placeholder={"Choose a service"}
-              ref={register({ required: true })}
-            />
-            <datalist id="browsers">
-              <option value="Internet Explorer" />
-              <option value="Firefox" />
-              <option value="Chrome" />
-              <option value="Opera" />
-              <option value="Safari" />
-            </datalist>
+            <label for="services" className="contact-title">
+              Choose a service:
+            </label>
+            <select id="services" multiple ref={register({ required: true })}>
+              <option value="FACE PAINTING">FACE PAINTING</option>
+              <option value="BALLOON TWISTING">BALLOON TWISTING</option>
+              <option value="GLITTER TATOOS">GLITTER TATOOS</option>
+              <option value="HENNA">HENNA</option>
+              <option value="BALLOON DECORATION">BALLOON DECORATION</option>
+              <option value="BALLOON BOUQUETS">BALLOON BOUQUETS</option>
+            </select>
             {errors.phone && (
               <span className="contact-title">Please choose a service.</span>
             )}
