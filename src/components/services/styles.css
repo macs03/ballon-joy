@@ -51,9 +51,9 @@
 }
 
 .title-item {
-  font-family: "OpenSansSemiBold";
+  font-family: "LuckiestGuy";
   color: var(--maincolor);
-  font-size: 0.8em;
+  font-size: 2em;
 }
 
 .service-description p {
