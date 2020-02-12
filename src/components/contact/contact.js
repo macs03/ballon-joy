@@ -190,6 +190,23 @@ const Contact = () => {
             )}
 
             <input
+              list="browsers"
+              name="browser"
+              placeholder={"Choose a service"}
+              ref={register({ required: true })}
+            />
+            <datalist id="browsers">
+              <option value="Internet Explorer" />
+              <option value="Firefox" />
+              <option value="Chrome" />
+              <option value="Opera" />
+              <option value="Safari" />
+            </datalist>
+            {errors.phone && (
+              <span className="contact-title">Please choose a service.</span>
+            )}
+
+            <input
               name="date"
               type="date"
               placeholder={today}
@@ -201,10 +218,26 @@ const Contact = () => {
                 Please enter an estimate date.
               </span>
             )}
+
+            <input name="time" type="time" ref={register({ required: true })} />
+            {errors.phone && (
+              <span className="contact-title">
+                Please enter an estimate time.
+              </span>
+            )}
+
+            <input
+              name="address"
+              placeholder="Event Address"
+              ref={register({ required: true })}
+            />
+            {errors.subject && (
+              <span className="contact-title">Address is required.</span>
+            )}
             <textarea
               name="message"
               form="form"
-              placeholder="Message"
+              placeholder="Tell us more about your event (numbers of kids, how many hours of service, kind of event) or any else details that you consider important"
               maxLength={200}
               rows="10"
               ref={register({
