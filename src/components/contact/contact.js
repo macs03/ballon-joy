@@ -211,7 +211,9 @@ const Contact = () => {
             {errors.services && (
               <span className="contact-title">Please choose a service.</span>
             )}
-
+            <label for="date" className="contact-title">
+              Choose a date:
+            </label>
             <input
               name="date"
               type="date"
@@ -224,7 +226,9 @@ const Contact = () => {
                 Please enter an estimate date.
               </span>
             )}
-
+            <label for="time" className="contact-title">
+              Choose a estimated time:
+            </label>
             <input
               placeholder="Estimated time"
               name="time"
