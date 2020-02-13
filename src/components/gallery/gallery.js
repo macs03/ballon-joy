@@ -48,10 +48,22 @@ const GallerySection = () => {
             Decorations
           </span>
           <span
-            onClick={() => onFilterGallery("events")}
-            className={active === "events" ? "active-filter" : null}
+            onClick={() => onFilterGallery("twisting")}
+            className={active === "twisting" ? "active-filter" : null}
           >
-            Events
+            Twisting
+          </span>
+          <span
+            onClick={() => onFilterGallery("painting")}
+            className={active === "painting" ? "active-filter" : null}
+          >
+            Face Painting
+          </span>
+          <span
+            onClick={() => onFilterGallery("tattoos")}
+            className={active === "tattoos" ? "active-filter" : null}
+          >
+            Glitter Tattoos
           </span>
         </div>
         <div className="gallery-comp">

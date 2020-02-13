@@ -22,14 +22,16 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 90%;
   margin-bottom: 2em;
+  flex-wrap: wrap;
 }
 
 .filters span {
   font-family: "OpenSansRegular";
   color: var(--maincolorlight);
   font-size: 0.8em;
+  height: 2.5em;
 }
 
 .active-filter {
