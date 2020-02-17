@@ -70,14 +70,20 @@ const GallerySection = () => {
           <Gallery photos={realPhotos} />
         </div>
         <div className="gradient">
-          <LazyLoadImage
-            alt="arrow-down"
-            height="25px"
-            src={arrowDown}
-            width="20px"
-            effect="blur"
-          />
-          <span className="more-text">See more photos</span>
+          <a
+            href="https://instagram.com/balloonjoymi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LazyLoadImage
+              alt="arrow-down"
+              height="25px"
+              src={arrowDown}
+              width="20px"
+              effect="blur"
+            />
+            <span className="more-text">See more photos</span>
+          </a>
         </div>
       </div>
     </section>
