@@ -109,7 +109,7 @@ const photos = [
   },
   {
     src: decorations[1],
-    width: 4,
+    width: 3,
     height: 3,
     category: "decorations"
   },
@@ -121,13 +121,13 @@ const photos = [
   },
   {
     src: decorations[3],
-    width: 4,
+    width: 5,
     height: 3,
     category: "decorations"
   },
   {
     src: decorations[4],
-    width: 4,
+    width: 3,
     height: 3,
     category: "decorations"
   },
@@ -175,19 +175,19 @@ const photos = [
   },
   {
     src: decorations[12],
-    width: 4,
+    width: 2,
     height: 3,
     category: "decorations"
   },
   {
     src: decorations[13],
-    width: 4,
+    width: 3,
     height: 3,
     category: "decorations"
   },
   {
     src: decorations[14],
-    width: 4,
+    width: 3,
     height: 3,
     category: "decorations"
   },
@@ -195,7 +195,7 @@ const photos = [
   //  bouquets
   {
     src: bouquets[0],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
@@ -207,73 +207,73 @@ const photos = [
   },
   {
     src: bouquets[2],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[3],
-    width: 4,
+    width: 5,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[4],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[5],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[6],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[7],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[8],
     width: 4,
-    height: 3,
+    height: 4,
     category: "bouquets"
   },
   {
     src: bouquets[9],
     width: 4,
-    height: 3,
+    height: 4,
     category: "bouquets"
   },
   {
     src: bouquets[10],
     width: 4,
-    height: 3,
+    height: 4,
     category: "bouquets"
   },
   {
     src: bouquets[11],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[12],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
   {
     src: bouquets[13],
-    width: 4,
+    width: 3,
     height: 3,
     category: "bouquets"
   },
@@ -293,25 +293,25 @@ const photos = [
   },
   {
     src: tattoos[1],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
   {
     src: tattoos[2],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
   {
     src: tattoos[3],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
   {
     src: tattoos[4],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
@@ -323,7 +323,7 @@ const photos = [
   },
   {
     src: tattoos[6],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
@@ -335,7 +335,7 @@ const photos = [
   },
   {
     src: tattoos[8],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
@@ -347,19 +347,19 @@ const photos = [
   },
   {
     src: tattoos[10],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
   {
     src: tattoos[11],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
   {
     src: tattoos[12],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
@@ -371,32 +371,32 @@ const photos = [
   },
   {
     src: tattoos[14],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
   {
     src: tattoos[15],
-    width: 4,
+    width: 3,
     height: 3,
     category: "tattoos"
   },
   // paiting
   {
     src: painting[0],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[1],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[2],
-    width: 4,
+    width: 2,
     height: 3,
     category: "painting"
   },
@@ -408,7 +408,7 @@ const photos = [
   },
   {
     src: painting[4],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
@@ -420,55 +420,55 @@ const photos = [
   },
   {
     src: painting[6],
-    width: 4,
+    width: 2,
     height: 3,
     category: "painting"
   },
   {
     src: painting[7],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[8],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[9],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[10],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[11],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[12],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[13],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
   {
     src: painting[14],
-    width: 4,
+    width: 3,
     height: 3,
     category: "painting"
   },
@@ -476,43 +476,43 @@ const photos = [
   // twisting
   {
     src: twisting[0],
-    width: 4,
+    width: 2,
     height: 3,
     category: "twisting"
   },
   {
     src: twisting[1],
-    width: 4,
+    width: 2,
     height: 3,
     category: "twisting"
   },
   {
     src: twisting[2],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
   {
     src: twisting[3],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
   {
     src: twisting[4],
     width: 4,
-    height: 3,
+    height: 2,
     category: "twisting"
   },
   {
     src: twisting[5],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
   {
     src: twisting[6],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
@@ -524,7 +524,7 @@ const photos = [
   },
   {
     src: twisting[8],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
@@ -536,7 +536,7 @@ const photos = [
   },
   {
     src: twisting[10],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
@@ -548,19 +548,19 @@ const photos = [
   },
   {
     src: twisting[12],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
   {
     src: twisting[13],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   },
   {
     src: twisting[14],
-    width: 4,
+    width: 3,
     height: 3,
     category: "twisting"
   }
