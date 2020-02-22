@@ -63,12 +63,13 @@
 }
 
 .first-button {
-  font-size: 1.2em !important;
+  font-size: 1em !important;
   font-weight: bold;
 }
 
 .first-button-text {
-  width: 50% !important;
+  width: 55% !important;
+  margin: -0.3em 0 0 -0.5em !important;
 }
 
 /* ==========================================================================
@@ -112,5 +113,14 @@
   .logo-responsive h1 {
     opacity: 0;
     position: absolute;
+  }
+  .first-button {
+    font-size: 1.2em !important;
+    font-weight: bold;
+  }
+
+  .first-button-text {
+    width: 50% !important;
+    margin: -0.3em 0 0 -0.5em !important;
   }
 }
