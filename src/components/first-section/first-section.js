@@ -34,8 +34,8 @@ const FirstSection = () => (
     <div className="title">
       <h2>BOOK NOW!!!</h2>
       <div className="sub-title">
-        <h4>Do you want a party?</h4>
-        <h4>Let me know!</h4>
+        <h4>Do you want us to be at your party?</h4>
+        <h4>Let's have fun!</h4>
       </div>
     </div>
 
@@ -47,7 +47,7 @@ const FirstSection = () => (
         smooth={true}
         duration={500}
       >
-        <button className="primary-button">
+        <button className="primary-button first-button">
           <LazyLoadImage
             alt="email"
             height="30%"
@@ -55,7 +55,7 @@ const FirstSection = () => (
             width="30%"
             effect="blur"
           />
-          <span className="button-text">Book an event!!!</span>
+          <span className="button-text first-button-text ">Book Now!!!</span>
         </button>
       </Link>
       {/* <a
