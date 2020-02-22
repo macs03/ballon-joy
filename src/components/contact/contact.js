@@ -63,7 +63,7 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="social">
-        <span className="contact-title">Contact us</span>
+        <span className="contact-title contact-principal">Contact us</span>
         <div className="social-content">
           <div className="phone">
             <a
@@ -193,7 +193,10 @@ const Contact = () => {
             )}
 
             <label for="services" className="contact-title">
-              Choose some service:
+              Choose some service:{" "}
+              <span>
+                (for multiple selection press ctrl or cmd and click it)
+              </span>
             </label>
             <select
               name="services"
@@ -254,7 +257,7 @@ const Contact = () => {
             <textarea
               name="message"
               form="form"
-              placeholder="Tell us more about your event (numbers of kids, how many hours of service, kind of event) or any else details that you consider important"
+              placeholder="Tell us more about your event (number of kids, how many hours of service, type of event) or any other important detail."
               maxLength={200}
               rows="10"
               ref={register({

@@ -53,7 +53,7 @@ const Pricing = props => (
           width="30%"
           effect="blur"
         />
-        <span className="button-text">Book an event!!!</span>
+        <span className="button-text contact-us">Contact us</span>
       </button>
     </Link>
   </div>

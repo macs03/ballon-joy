@@ -9,8 +9,8 @@ import "./styles.css";
 const Services = () => (
   <section id="services" className="services">
     <div className="title-service">
-      <span>OUR SERVICES</span>
-      <h4>Let's fun!</h4>
+      <span>Let's have fun!</span>
+      <h4>OUR SERVICES</h4>
     </div>
     <div className="services-container">
       <div className="service-item">

@@ -46,7 +46,7 @@ const KidsNight = () => (
   <section id="kids-night" className="kids-night">
     <div className="header-kids">
       <div className="title-kids">
-        <span>Are you prepare for a unique momment?</span>
+        <span>Let's make memories together</span>
       </div>
       <Link
         to="contact"
@@ -63,7 +63,7 @@ const KidsNight = () => (
             width="30%"
             effect="blur"
           />
-          <span className="secondary-button-text">Make a party</span>
+          <span className="secondary-button-text">Book now!!!</span>
         </button>
       </Link>
     </div>
@@ -76,6 +76,7 @@ const KidsNight = () => (
         autoPlay={true}
         showBullets={true}
         slideOnThumbnailOver={true}
+        showFullscreenButton={false}
       />
     </div>
     <div className="footer-kids">
@@ -94,7 +95,7 @@ const KidsNight = () => (
             width="30%"
             effect="blur"
           />
-          <span className="secondary-button-text">Schedulme</span>
+          <span className="secondary-button-text">Schedule me</span>
         </button>
       </Link>
     </div>

@@ -24,8 +24,8 @@ const GallerySection = () => {
   return (
     <section id="gallery" className="gallery">
       <div className="title-service">
-        <span>GALLERY</span>
-        <h4>We share joys</h4>
+        <span>We share joys</span>
+        <h4>GALLERY</h4>
       </div>
       <div className="gallery-container">
         <div className="filters">

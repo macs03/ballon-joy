@@ -6,7 +6,7 @@
   width: 100%;
   background-image: url(../../assets/images/bg-contact.svg);
   background-color: var(--maincolorlight);
-  height: 760px;
+  height: 1060px;
   padding: 2em 0;
 }
 
@@ -31,7 +31,15 @@
 .contact-title {
   font-family: "OpenSansSemiBold";
   color: var(--white);
-  font-size: 0.6em;
+  font-size: 0.8em;
+}
+
+.contact-title span {
+  display: none;
+}
+
+.contact-principal {
+  font-size: 1.2em !important;
 }
 
 .contact-info {
@@ -136,7 +144,8 @@ form button {
 }
 
 .send-button {
-  height: 4.5em !important;
+  width: 12em !important;
+  height: 3.5em !important;
 }
 
 /* ==========================================================================
@@ -168,5 +177,13 @@ form button {
     border-radius: 0.25em;
     border-style: none;
     padding-left: 0.5em;
+  }
+
+  .contact-title span {
+    display: block;
+  }
+
+  .contact-form {
+    height: 90%;
   }
 }

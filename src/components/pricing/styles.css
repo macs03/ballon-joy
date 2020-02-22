@@ -50,6 +50,14 @@
   z-index: 1001;
 }
 
+.contact-us {
+  font-size: 1.2em;
+  text-align: center;
+  width: 7em;
+  margin-top: -0.28em;
+  margin-left: -1em;
+}
+
 /* ==========================================================================
      Media Queries - Smaller than 500px
  ========================================================================== */

@@ -79,4 +79,19 @@
     width: 80vw;
     margin: auto;
   }
+
+  .more-text {
+    font-size: 1.3em;
+    margin: 0 0 0em 1em;
+    color: var(--maincolor);
+    font-weight: bold;
+  }
+
+  .filters {
+    margin-bottom: 0;
+  }
+
+  .filters span {
+    font-size: 1.15em;
+  }
 }
