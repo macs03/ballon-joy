@@ -65,6 +65,7 @@
 .first-button {
   font-size: 1em !important;
   font-weight: bold;
+  border-radius: 0.5em;
 }
 
 .first-button-text {

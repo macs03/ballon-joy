@@ -195,7 +195,8 @@ const Contact = () => {
             <label for="services" className="contact-title">
               Choose some service:{" "}
               <span>
-                (for multiple selection press ctrl or cmd and click it)
+                (for multiple selection press CTRL or CMD and click on your
+                desired options)
               </span>
             </label>
             <select
