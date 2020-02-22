@@ -53,4 +53,11 @@
   .image-gallery-slide img {
     max-height: 700px !important;
   }
+  .slide-gallery {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
 }
