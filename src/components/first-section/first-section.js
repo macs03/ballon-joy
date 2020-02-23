@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-scroll";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-import whiteLogo from "../../assets/images/logo-white_BalloonJoy.png";
+import whiteLogo from "../../assets/images/logo-BalloonJoy.png";
 
 import email from "../../assets/images/icon-email.png";
 
@@ -15,9 +15,9 @@ const FirstSection = () => (
       <h1>Balloon joy mi</h1>
       <LazyLoadImage
         alt="ballon-joy"
-        height="100%"
+        height={180}
         src={whiteLogo}
-        width="90%"
+        width={180}
         effect="blur"
       />
     </div>

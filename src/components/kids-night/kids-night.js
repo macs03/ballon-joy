@@ -7,8 +7,11 @@ import ImageGallery from "react-image-gallery";
 import party from "../../assets/images/icon-fest.svg";
 import calendar from "../../assets/images/icon-calendar.svg";
 import slide1 from "../../assets/images/img-slide_prueba.png";
-import slide4 from "../../assets/images/kids-zone-4.png";
-import slide6 from "../../assets/images/kids-zone-6.png";
+import slide4 from "../../assets/images/test2.png";
+import slide6 from "../../assets/images/test3.png";
+import slide2 from "../../assets/images/kids-zone-1.png";
+import slide3 from "../../assets/images/kids-zone-2.png";
+import slide5 from "../../assets/images/test.png";
 
 import "./styles.css";
 
@@ -18,12 +21,24 @@ const images = [
     thumbnail: slide1
   },
   {
+    original: slide2,
+    thumbnail: slide2
+  },
+  {
     original: slide4,
     thumbnail: slide4
   },
   {
+    original: slide3,
+    thumbnail: slide3
+  },
+  {
     original: slide6,
     thumbnail: slide6
+  },
+  {
+    original: slide5,
+    thumbnail: slide5
   }
 ];
 
