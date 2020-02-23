@@ -95,7 +95,7 @@ const KidsNight = () => (
             width="30%"
             effect="blur"
           />
-          <span className="secondary-button-text">Schedule me</span>
+          <span className="secondary-button-text">Let's have fun</span>
         </button>
       </Link>
     </div>
