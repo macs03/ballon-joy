@@ -145,10 +145,10 @@ const Contact = () => {
       </div>
       <div className="contact-form">
         <span className="contact-title">
-          Would you like make an event? Please, write us
+          Please fill in the information below for your special event!
         </span>
         <span className="contact-title">
-          Email and Text message is the BEST way to reach us!
+          Email and text message is the best way to reach us!
         </span>
         <div className="form-container">
           <form onSubmit={handleSubmit(onSubmit)} id="form">
@@ -171,14 +171,6 @@ const Contact = () => {
             />
             {errors.email && (
               <span className="contact-title">E-mail is required.</span>
-            )}
-            <input
-              name="subject"
-              placeholder="Subject"
-              ref={register({ required: true })}
-            />
-            {errors.subject && (
-              <span className="contact-title">Subject is required.</span>
             )}
             <input
               name="phone"
