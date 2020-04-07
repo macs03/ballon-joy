@@ -16,7 +16,7 @@ import whatsapp from "../../assets/images/icon-whatsapp.png";
 import email from "../../assets/images/icon-email.png";
 
 const userID = "user_XhWjzmKsGW4hcx0ogon6e";
-const serviceID = "gmailtest";
+const serviceID = "balloonjoy";
 const templateID = "template_ziReR0i8";
 
 const Contact = () => {
@@ -40,21 +40,21 @@ const Contact = () => {
       date: data.date,
       time: data.time,
       address: data.address,
-      services: data.services
+      services: data.services,
     };
 
     emailJs.send(serviceID, templateID, template_params).then(
-      response => {
+      (response) => {
         addToast("Your Message has been send", {
           appearance: "success",
-          autoDismiss: true
+          autoDismiss: true,
         });
         event.target.reset();
       },
-      error => {
+      (error) => {
         addToast("Somenthing went wrong", {
           appearance: "error",
-          autoDismiss: true
+          autoDismiss: true,
         });
       }
     );
@@ -166,7 +166,7 @@ const Contact = () => {
               placeholder="E-mail"
               ref={register({
                 required: true,
-                pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
+                pattern: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
               })}
             />
             {errors.email && (
@@ -256,7 +256,7 @@ const Contact = () => {
               ref={register({
                 required: true,
                 maxlength: 200,
-                minLength: 20
+                minLength: 20,
               })}
             />
             {errors.message && (
