@@ -14,25 +14,30 @@ const Pricing = props => (
       Face Painting, Balloon Twisting and Glitter Tattoos:
     </span>
     <p>
-      Per 1 artist: $100 / hr of balloon twisting or one of the other services.
-      $120 for two services if you booked only for one hour (depending upon
-      amount of children).
+      Rates 1 or 2 services
+      <br />
+      <br />
+      (Face Painting and/or Balloon Twisting / 1 artist): $150 for the 1st hour.
+      $120 per additional hour. <br />
+      <br />
+      Additional services (extra charge): <br />
+      <br />- Face Gems/ glitter tattoos
+      <br />- Henna $150 per hour
+      <br />- Clown costume: $40 extra <br />
     </p>
     <p>
       <span className="title-item">Important: </span> <br />- Please note that
       price are only for 1 artist. <br />- We travel no more than 40 miles from
-      Dearborn. <br />- Sometimes transportation fee applies. <br />- It is an
-      additional $25 for the artist to come dressed in little Clown <br />- To
-      book we request 30% in advance (Venmo, cash app, zelle, Paypal).
+      Dearborn. <br />- Travel fee depending on your address ($10-$25). <br />-
+      It is an additional $40 for the artist to come dressed in little Clown{" "}
+      <br />- To book we request 100% in advance (Venmo, cash app, zelle,
+      Paypal).
     </p>
-    <span className="service-modal">Henna Tattoo:</span>
-    <p>$100 per hour.</p>
-    <p> This service is performed by an exclusive artist.</p>
     <span className="service-modal">
       Balloon Decoration and Balloon Bouquets:
     </span>
     <p>
-      Quotes based on designs and measurements. (50% is required to book, not
+      Quotes based on designs and measurements. (100% is required to book, not
       refundable)
     </p>
     <Link
