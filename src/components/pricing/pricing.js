@@ -28,8 +28,8 @@ const Pricing = props => (
     <p>
       <span className="title-item">Important: </span> <br />- Please note that
       price are only for 1 artist. <br />- We travel no more than 40 miles from
-      Dearborn. <br />- Travel fee depending on your address ($10-$25). <br />-
-      It is an additional $40 for the artist to come dressed in little Clown{" "}
+      Dearborn. <br />- Travel fee depending on your address ($25-$50). <br />-
+      It is an additional $50 for the artist to come dressed in little Clown{" "}
       <br />- To book we request 100% in advance (Venmo, cash app, zelle,
       Paypal).
     </p>
